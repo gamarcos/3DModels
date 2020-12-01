@@ -2,43 +2,47 @@
    "accessors" : [
       {
          "bufferView" : 0,
+         "byteOffset" : 0,
          "componentType" : 5123,
-         "count" : 564,
-         "max" : [ 563 ],
+         "count" : 6384,
+         "max" : [ 6383 ],
          "min" : [ 0 ],
          "name" : "buffer-0-accessor-indices-buffer-0-mesh-0",
          "type" : "SCALAR"
       },
       {
          "bufferView" : 2,
+         "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 564,
-         "max" : [ 4.813317775726318, 9.74205207824707, 13.85789775848389 ],
-         "min" : [ -5.709856033325195, 0, -13.92863655090332 ],
+         "count" : 6384,
+         "max" : [ 0, 468961.0625, 336885.65625 ],
+         "min" : [ -489848.5625, 0, 0 ],
          "name" : "buffer-0-accessor-position-buffer-0-mesh-0",
          "type" : "VEC3"
       },
       {
          "bufferView" : 2,
-         "byteOffset" : 6768,
+         "byteOffset" : 76608,
          "componentType" : 5126,
-         "count" : 564,
-         "max" : [ 1, 1, 1 ],
-         "min" : [ -1, -1, -1 ],
+         "count" : 6384,
+         "max" : [ 0.9968000054359436, 1, 0.9968000054359436 ],
+         "min" : [ -0.9968000054359436, -1, -0.9968000054359436 ],
          "name" : "buffer-0-accessor-normal-buffer-0-mesh-0",
          "type" : "VEC3"
       },
       {
          "bufferView" : 1,
+         "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 0,
-         "max" : [ 0, 0 ],
-         "min" : [ 0, 0 ],
+         "count" : 6384,
+         "max" : [ 1, 0.001700000022538006 ],
+         "min" : [ -0.5023000240325928, -1.001600027084351 ],
          "name" : "buffer-0-accessor-texcoord-buffer-0-mesh-0",
          "type" : "VEC2"
       },
       {
          "bufferView" : 3,
+         "byteOffset" : 0,
          "componentType" : 5126,
          "count" : 0,
          "max" : [ 0, 0, 0, 0 ],
@@ -48,7 +52,7 @@
       },
       {
          "bufferView" : 0,
-         "byteOffset" : 1128,
+         "byteOffset" : 12768,
          "componentType" : 5123,
          "count" : 144,
          "max" : [ 143 ],
@@ -58,35 +62,37 @@
       },
       {
          "bufferView" : 2,
-         "byteOffset" : 13536,
+         "byteOffset" : 153216,
          "componentType" : 5126,
          "count" : 144,
-         "max" : [ 4.216280937194824, 0.8769109845161438, 13.22916507720947 ],
-         "min" : [ -4.853151798248291, -0.02247899957001209, -13.29465389251709 ],
+         "max" : [ 0, 409332.8125, 324723.21875 ],
+         "min" : [ -458044.71875, 0, 0 ],
          "name" : "buffer-0-accessor-position-buffer-0-mesh-0",
          "type" : "VEC3"
       },
       {
          "bufferView" : 2,
-         "byteOffset" : 15264,
+         "byteOffset" : 154944,
          "componentType" : 5126,
          "count" : 144,
-         "max" : [ 0.9908000230789185, 1, 0.9929999709129333 ],
-         "min" : [ -0.9908000230789185, -1, -0.9929999709129333 ],
+         "max" : [ 0.9754999876022339, 1, 0.9754999876022339 ],
+         "min" : [ -0.9754999876022339, -1, -0.9754999876022339 ],
          "name" : "buffer-0-accessor-normal-buffer-0-mesh-0",
          "type" : "VEC3"
       },
       {
          "bufferView" : 1,
+         "byteOffset" : 51072,
          "componentType" : 5126,
-         "count" : 0,
-         "max" : [ 0, 0 ],
-         "min" : [ 0, 0 ],
+         "count" : 144,
+         "max" : [ 1, 0 ],
+         "min" : [ 0, -1 ],
          "name" : "buffer-0-accessor-texcoord-buffer-0-mesh-0",
          "type" : "VEC2"
       },
       {
          "bufferView" : 3,
+         "byteOffset" : 0,
          "componentType" : 5126,
          "count" : 0,
          "max" : [ 0, 0, 0, 0 ],
@@ -102,20 +108,24 @@
    "bufferViews" : [
       {
          "buffer" : 0,
-         "byteLength" : 1416,
+         "byteLength" : 13056,
+         "byteOffset" : 0,
          "byteStride" : 0,
          "name" : "buffer-0-bufferview-ushort",
          "target" : 34963
       },
       {
          "buffer" : 0,
-         "byteLength" : 1,
-         "name" : "buffer-0-bufferview-vec2"
+         "byteLength" : 52224,
+         "byteOffset" : 13056,
+         "byteStride" : 8,
+         "name" : "buffer-0-bufferview-vec2",
+         "target" : 34962
       },
       {
          "buffer" : 0,
-         "byteLength" : 16992,
-         "byteOffset" : 1416,
+         "byteLength" : 156672,
+         "byteOffset" : 65280,
          "byteStride" : 12,
          "name" : "buffer-0-bufferview-vec3",
          "target" : 34962
@@ -123,33 +133,36 @@
       {
          "buffer" : 0,
          "byteLength" : 1,
+         "byteOffset" : 0,
          "name" : "buffer-0-bufferview-vec4"
       }
    ],
    "buffers" : [
       {
-         "byteLength" : 18416,
+         "byteLength" : 221952,
          "name" : "buffer-0",
-         "uri" : "Sofa_01.bin"
+         "uri" : "Couch.bin"
       }
    ],
    "materials" : [
       {
+         "alphaMode" : "OPAQUE",
          "doubleSided" : true,
-         "name" : "F44336",
+         "name" : "_crayfishdiffuse",
          "pbrMetallicRoughness" : {
-            "baseColorFactor" : [ 0.956863, 0.262745, 0.211765, 1 ],
+            "baseColorFactor" : [ 0.7216, 0.0353, 0, 1 ],
             "metallicFactor" : 0,
-            "roughnessFactor" : 0.7448017359246658
+            "roughnessFactor" : 0.9124375732201923
          }
       },
       {
+         "alphaMode" : "OPAQUE",
          "doubleSided" : true,
-         "name" : "795548",
+         "name" : "02___Default",
          "pbrMetallicRoughness" : {
-            "baseColorFactor" : [ 0.47451, 0.333333, 0.282353, 1 ],
+            "baseColorFactor" : [ 0, 0, 0, 1 ],
             "metallicFactor" : 0,
-            "roughnessFactor" : 0.7448017359246658
+            "roughnessFactor" : 0.9699476628648295
          }
       }
    ],
@@ -164,7 +177,8 @@
                   "TEXCOORD_0" : 3
                },
                "indices" : 0,
-               "material" : 0
+               "material" : 0,
+               "mode" : 4
             },
             {
                "attributes" : {
@@ -173,7 +187,8 @@
                   "TEXCOORD_0" : 8
                },
                "indices" : 5,
-               "material" : 1
+               "material" : 1,
+               "mode" : 4
             }
          ]
       }
